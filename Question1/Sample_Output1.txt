@@ -1,0 +1,33 @@
+CS558 : COMPUTER SYSTEM LAB ASSIGNMENT - 04
+Instructor : Dr. Manas Khatua and Dr. Moumita Patra
+TA's : Alakesh Kalita, Arunav Saikia, Meenu Rani Dey, Priya Undriwade, Vinay Kumar Gupta
+Sumbittted By : Himanshu Patel(204101029), Ketan Karnakota(204101030)
+Premptive Priority Scheduling
+**Note : highest numbers are treated as high priority. for example : priority(7) > priority(2)
+----------------------------------------------------------------------------------------------
+Enter Roll No :204101029
+
+
+
+
+PID  AT Prio   BT   CT  TAT   WT
+1    2    9    3    5    3    0
+2    0    2    3    8    8    5
+3    4    0    7   30   26   19
+4    1    1    4   19   18   14
+5    0    0    6   36   36   30
+6    1    1    4   23   22   18
+7    0    4    2    2    2    0
+8    2    0    4   40   38   34
+9    9    2    7   16    7    0
+
+
+Gant Chart : 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| 7 | 7 | 1 | 1 | 1 | 2 | 2 | 2 | 4 | 9 | 9 | 9 | 9 | 9 | 9 | 9 | 4 | 4 | 4 | 6 | 6 | 6 | 6 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 5 | 5 | 5 | 5 | 5 | 5 | 8 | 8 | 8 | 8 | 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40
+
+Average  Waiting   Time : 13.3333
+Average TurnAround Time : 17.7778
+Average Completion Time : 19.8889
